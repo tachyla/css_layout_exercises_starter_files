@@ -1,0 +1,36 @@
+main{
+padding-top: 200px;
+}
+
+.container{	
+	height: 500px;
+	width: 800px;
+	margin: auto;
+	border: 1px solid black;
+/*maybe this border is not needed because it causes the 
+outside borders to have a 2px thick border. */
+}
+
+.blueblock{
+	background-color: blue;
+	border: 1px solid black ;
+
+}
+.greenblock{
+	background-color: green;
+	border: 1px solid black;
+}
+.greyblock{
+	background-color: grey;
+	border: 1px solid black;
+
+}
+.blackblock{
+	background-color: black;
+	border: 1px solid black;
+}
+.yellowblock{
+	background-color: yellow;
+	border: 1px solid black;
+
+}
