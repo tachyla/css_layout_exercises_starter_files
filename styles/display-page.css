@@ -6,8 +6,8 @@ padding-top: 100px;
 	height: 500px;
 	width: 800px;
 	margin: auto;
-	border: 1px solid black;
-	font-size: 0;
+/*	border: 1px solid black;
+*/	font-size: 0;
 /*maybe this border is not needed because it causes the 
 outside borders to have a 2px thick border. */
 }
@@ -15,11 +15,6 @@ outside borders to have a 2px thick border. */
 .toprow{
 	height: 200px;
 	width: 50%;
-	display: inline-block;
-}
-.bottomrow{
-	height: 300px;
-	width: 33.33%;
 	display: inline-block;
 }
 
@@ -34,10 +29,13 @@ outside borders to have a 2px thick border. */
 
 }
 
+.bottomrow{
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+}
 
 
-
-/*
 .greyblock{
 	background-color: grey;
 	border: 1px solid black;
@@ -47,8 +45,7 @@ outside borders to have a 2px thick border. */
 	background-color: black;
 	border: 1px solid black;
 }
-.yellowblock{
-	background-color: yellow;
+.orangeblock{
+	background-color: orange;
 	border: 1px solid black;
 
-}*/
