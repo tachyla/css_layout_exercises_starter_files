@@ -1,1 +1,83 @@
+nav{
+	padding-left: 60px;
+	
+	padding-right: 60px;
+	/*padding-right & padding-left stops anything exactly
+	60px from touching the border */
+}
 
+.navcontainer{
+	background-color: grey;
+	position: fixed;
+	height: 100px ;
+	width: 100%;
+
+}
+nav .catnav{
+	height: 50px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	left: 30px;
+	border-radius: 50%;
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+nav ul{
+	display: inline-block;
+	list-style: none;
+	/*list-style removes the bullets*/	
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a:hover {
+	color: black;
+
+}
+
+
+main{
+	padding-top: 400px;
+}
+
+.petcontainer{
+	position: relative;
+	height: 500px;
+	/*half of the cat & dog image height 
+	100px + the dotted box600px*/
+	width: 800px;
+	/*same as width*/
+	margin:auto;
+}
+
+.dotted{
+	border: 10px green dotted;
+	height: 300px;
+	width: 600px;
+	margin: auto;
+
+}
+
+.catimage{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	bottom: 400px;
+
+}
+
+.dogimage{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: 600px;
+	bottom:100px;
+}
+
+html{
+	background: url("images/outerspace_landscape.jpg") no-repeat; 
+	background-size: cover;
+}
