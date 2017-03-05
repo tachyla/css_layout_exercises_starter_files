@@ -1,6 +1,5 @@
 nav{
 	padding-left: 60px;
-	
 	padding-right: 60px;
 	/*padding-right & padding-left stops anything exactly
 	60px from touching the border */
@@ -77,10 +76,11 @@ main{
 	bottom:100px;
 }
 
-#bg{
-  position: fixed; 
-  top: 0; 
-  left: 0; 
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
 	
   /* Preserve aspet ratio */
   min-width: 100%;
