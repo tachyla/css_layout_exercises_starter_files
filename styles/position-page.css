@@ -50,7 +50,7 @@ main{
 	100px + the dotted box600px*/
 	width: 800px;
 	/*same as width*/
-	margin:auto;
+	margin: auto;
 }
 
 .dotted{
@@ -77,7 +77,12 @@ main{
 	bottom:100px;
 }
 
-html{
-	background: url("images/outerspace_landscape.jpg") no-repeat; 
-	background-size: cover;
+#bg{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
