@@ -1,11 +1,11 @@
-nav{
+nav {
 	padding-left: 60px;
 	padding-right: 60px;
 	/*padding-right & padding-left stops anything exactly
 	60px from touching the border */
 }
 
-.navcontainer{
+.navcontainer {
 	background-color: grey;
 	position: fixed;
 	height: 60px ;
@@ -22,13 +22,13 @@ nav .catnav{
 	vertical-align: middle;
 }
 
-nav ul{
+nav ul {
 	display: inline-block;
 	list-style: none;
 	/*list-style removes the bullets*/
 }
 
-nav li{
+nav li {
 	display: inline-block;
 }
 
@@ -37,13 +37,13 @@ nav a:hover {
 
 }
 
-
-main{
+main {
 	padding-top: 400px;
+	padding-bottom: 150px;
 }
 
 
-.dotted{
+.dotted {
 	border: 10px green dotted;
 	height: 300px;
 	width: 600px;
@@ -51,15 +51,15 @@ main{
 	position: relative;
 }
 
-.catimage{
+.catimage {
 	position: absolute;
 	height: 200px;
 	width: 200px;
-	bottom: 200px;
+	bottom: 180px;
 	right: 480px;
 }
 
-.dogimage{
+.dogimage {
 	position: absolute;
 	height: 200px;
 	width: 200px;
@@ -71,9 +71,4 @@ main{
 body {
   background: url(../images/outerspace_landscape.jpeg) no-repeat;
   background-size: cover;
-}
-
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
 }
